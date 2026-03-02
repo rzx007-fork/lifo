@@ -127,3 +127,6 @@ tests/                   # Mirrors src/ structure with full coverage
 
 MIT
 传统 OS 是硬件→内核→系统调用→应用，而 Lifo 是浏览器→浏览器运行时（内核）→浏览器 API（系统调用）→Lifo 应用 / 命令，全程基于浏览器生态，无任何虚拟化 / 模拟环节。
+
+用户包：你在 Lifo 里安装、运行的软件
+Node.js 兼容层：让这些软件能像在 Node 里一样运行
