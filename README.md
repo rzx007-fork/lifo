@@ -126,3 +126,4 @@ tests/                   # Mirrors src/ structure with full coverage
 ## License
 
 MIT
+传统 OS 是硬件→内核→系统调用→应用，而 Lifo 是浏览器→浏览器运行时（内核）→浏览器 API（系统调用）→Lifo 应用 / 命令，全程基于浏览器生态，无任何虚拟化 / 模拟环节。
